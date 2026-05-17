@@ -29,9 +29,53 @@ This repository contains the complete full-stack architecture organized cleanly 
       ├── server.js         # Core backend server and API routing architecture
       └── package.json
 
-🛠️ Technology StackLayerTechnologyPurposeFrontendReact (Vite environment), JavaScript, CSS3Low-latency SPA, dark-theme dashboard UI variables, reactive state tracking.Backend APIASP.NET Core / Node.js Engine (C# & JavaScript)Multi-tier business logic, secure request interception, systemic role management.DatabaseMicrosoft SQL Server / Relational EngineRigid transactional storage, referential integrity constraints, historic logging schemas.👥 Role-Based Workflow Matrices👤 Employee DashboardConstruct personalized, cycle-bounded annual growth sheets.Distribute task weighting percentages with active frontend guard-rails.Append localized success criteria variables alongside direct quantitative data.💼 Manager DashboardAggregated check-in completion tracking interface maps team milestones.Batch review framework optimizes processing pipelines for pending reports.Interactive review logs capture context-driven validation metrics.👑 System Administrator & HR DashboardGlobal timeline management parameters orchestrate organization-wide cycle locks.Simultaneous, department-wide propagation of mandatory organizational KPIs.Direct read operations on systemic background audit logs to observe post-lock adjustments.📦 Local Installation & SetupEnsure you have your environment variables and runtime configurations set up before following the steps below.1. Backend InitializationOpen a terminal instance and navigate to the backend directory:Bashcd backend
+🛠️ Technology Stack
+Layer,Technology,Purpose
+Frontend,"React (Vite environment), JavaScript, CSS3","Low-latency SPA, dark-theme dashboard UI variables, reactive state tracking."
+Backend API,ASP.NET Core / Node.js Engine (C# & JavaScript),"Multi-tier business logic, secure request interception, systemic role management."
+Database,Microsoft SQL Server / Relational Engine,"Rigid transactional storage, referential integrity constraints, historic logging schemas."
 npm install   # Installs server dependencies
 npm start     # Starts your service registry / local backend runner
 2. Frontend InitializationOpen a secondary terminal instance and navigate to the client workspace:Bashcd frontend
+npm install   # Installs UI packages and toolchains
+npm run dev   # Deploys your local dev server (default: localhost:5173)
+
+👥 Role-Based Workflow Matrices
+👤 Employee Dashboard
+Construct personalized, cycle-bounded annual growth sheets.
+
+Distribute task weighting percentages with active frontend guard-rails.
+
+Append localized success criteria variables alongside direct quantitative data.
+
+💼 Manager Dashboard
+Aggregated check-in completion tracking interface maps team milestones.
+
+Batch review framework optimizes processing pipelines for pending reports.
+
+Interactive review logs capture context-driven validation metrics.
+
+👑 System Administrator & HR Dashboard
+Global timeline management parameters orchestrate organization-wide cycle locks.
+
+Simultaneous, department-wide propagation of mandatory organizational KPIs.
+
+Direct read operations on systemic background audit logs to observe post-lock adjustments.
+
+📦 Local Installation & Setup
+Ensure you have your environment variables and runtime configurations set up before following the steps below.
+
+1. Backend Initialization
+Open a terminal instance and navigate to the backend directory:
+
+Bash
+cd backend
+npm install   # Installs server dependencies
+npm start     # Starts your service registry / local backend runner
+2. Frontend Initialization
+Open a secondary terminal instance and navigate to the client workspace:
+
+Bash
+cd frontend
 npm install   # Installs UI packages and toolchains
 npm run dev   # Deploys your local dev server (default: localhost:5173)
